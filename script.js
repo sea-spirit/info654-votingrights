@@ -1,8 +1,7 @@
 // ----------------- HOTLINE WIDGET -----------------
 const hotline = document.getElementById("hotline");
 
-// Very simple "API" example: detecting state by browser locale.
-// (Using a real civic API would require an API key.)
+// "API" is detecting state by browser locale.
 function getHotline() {
     const userLocale = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
@@ -23,13 +22,18 @@ getHotline();
 // ----------------- QUIZ -----------------
 const quizQuestions = [
     {
-        q: "If your name is not on the voter rolls, you have the right to:",
-        answers: ["Leave the polling site", "Demand a regular ballot", "Request a provisional ballot"],
+        q: "If your name is missing from the voter list, what should you do?",
+        answers: ["Leave the polling site", "You cannot vote", "Request an affidavit (provisional) ballot"],
         correct: 2
     },
     {
         q: "You may bring someone to help you vote if you:",
         answers: ["Need language assistance", "Have a disability", "Both of the above"],
+        correct: 2
+    },
+      {
+        q: "Who is NOT allowed to assist you while voting?",
+        answers: ["A friend", "A family member", "Your employer or union representative"],
         correct: 2
     },
     {
