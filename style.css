@@ -7,7 +7,31 @@ body {
     color: #222;
     line-height: 1.6;
 }
+<style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 header {
     background: #003566;
     color: white;
