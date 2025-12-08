@@ -28,7 +28,7 @@ const quizQuestions = [
     },
     {
         q: "You may bring someone to help you vote if you:",
-        answers: ["Need language assistance", "Have a disability", "Both of the above"],
+        answers: ["Need language assistance", "Have a disability", "Either of the above"],
         correct: 2
     },
       {
