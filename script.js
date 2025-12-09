@@ -23,7 +23,7 @@ getHotline();
 const quizQuestions = [
     {
         q: "If your name is missing from the voter list, what should you do?",
-        answers: ["Leave the polling site", "You cannot vote", "Request an affidavit (provisional) ballot"],
+        answers: ["Give up on voting this time", "Demand a normal ballot", "Request an affidavit (provisional) ballot"],
         correct: 2
     },
     {
@@ -38,7 +38,7 @@ const quizQuestions = [
     },
     {
         q: "Voter intimidation is:",
-        answers: ["Illegal", "A normal part of voting", "Only illegal during federal elections"],
+        answers: ["Illegal", "To be expected", "Only illegal during federal elections"],
         correct: 0
     }
 ];
